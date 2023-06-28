@@ -45,11 +45,11 @@ After generating randomly the sparse user-object-attention matrix, please put th
 
 Run `main.py` in the file `Main`. Then the predicted user-object attention values can be obtained and saved as 'pred.txt'
 
-<img src="Readme/img1.png" width = "60%">
+<img src="Readme/img1.png" width = "100%">
 
 The compare between the predicted values and the ground truth values is shown as 
 
-<img src="Readme/img2.png" width = "60%">
+<img src="Readme/img2.png" width = "100%">
 
 
 ## 📚 Acknowledgement
