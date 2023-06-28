@@ -33,6 +33,25 @@ The following package can be installed using pip:
 pip install eals
 ```
 
+## 🏃‍♀️ Run the Program
+
+Run `main.py` in the file `Main` to start the program.
+
+## 🔍 Check the results
+
+Please refer to [here](https://github.com/HongyangDu/User-Object-Attention-Level) to check the details abouth the User-Object-Attention Level (UOAL) dataset.
+
+After generating randomly the sparse user-object-attention matrix, please put the 'my_rating.csv' under 'Seg2Rating' file.
+
+Run `main.py` in the file `Main`. Then the predicted user-object attention values can be obtained and saved as 'pred.txt'
+
+<img src="Readme/img1" width = "60%">
+
+The compare between the predicted values and the ground truth values is shown as 
+
+<img src="Readme/img2" width = "60%">
+
+
 ## 📚 Acknowledgement
 
 As we claimed in our paper, this repository used the codes in the following paper:

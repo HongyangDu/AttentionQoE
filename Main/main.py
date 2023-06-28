@@ -22,7 +22,10 @@ def load_ratings():
             rows.append(int(line["userId"]))
             cols.append(int(line["objectId"]))
             vals.append(float(line["rating"]))
-
+    train = np.zeros([30, 96]) - 1
+    for s, i in enumerate(cols):
+        train[rows[s], cols[s]] = vals[s]
+    np.savetxt('train.txt', train)
     ratings = sps.csr_matrix(
         (vals, (rows, cols)), shape=(max(rows) + 1, max(cols) + 1), dtype=np.float32
     )
@@ -67,6 +70,7 @@ def main():
 
     # Calculate difference between predicted and actual ratings
     draw = abs(pred - np.loadtxt('../Seg2Rating/gd.txt'))
+    np.savetxt('pred.txt', pred, )
     draw[np.array(rows, int), np.array(cols, int)] = -1
     print(draw.sum() / (draw.shape[0] * draw.shape[1] - len(rows)))
 
