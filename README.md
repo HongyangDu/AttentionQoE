@@ -8,7 +8,7 @@ Authored by Hongyang Du, Jiazhen Liu, Dusit Niyato, Jiawen Kang, Zehui Xiong, Ju
 
 The paper can be found at [ArXiv](https://arxiv.org/abs/2208.05438).
 
-![System Model](Readme/img0.png)
+![System Model](Readme/img0.jpg)
 
 ---
 ## 🔧 Environment Setup
@@ -45,11 +45,11 @@ After generating randomly the sparse user-object-attention matrix, please put th
 
 Run `main.py` in the file `Main`. Then the predicted user-object attention values can be obtained and saved as 'pred.txt'
 
-<img src="Readme/img1" width = "60%">
+<img src="Readme/img1.png" width = "60%">
 
 The compare between the predicted values and the ground truth values is shown as 
 
-<img src="Readme/img2" width = "60%">
+<img src="Readme/img2.png" width = "60%">
 
 
 ## 📚 Acknowledgement
