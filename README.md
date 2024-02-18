@@ -1,4 +1,4 @@
-# Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services
+# [Attention-aware Resource Allocation and QoE Analysis for Metaverse xURLLC Services](https://hongyangdu.github.io/AttentionQoE)
 
 This repository contains the code accompanying the paper:
 
